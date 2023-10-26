@@ -489,6 +489,7 @@ body{
     flex-direction: row;
 }
 .about-img img{
+    object-fit: cover;
     width: 100%;
     height:380px;
     padding: 30px;
@@ -504,7 +505,6 @@ body{
 
 #about-content a{
     text-decoration: none;
-    font-family: aileron;
     font-weight: 400;
     font-size: 35px;
     color: #c70039;
@@ -521,7 +521,6 @@ body{
     background: #c70039;
     outline: none;
     font-size:20px;
-    font-family: aileron;
     border-radius: 4px;
     font-weight: 400;
     cursor: pointer;
@@ -614,7 +613,7 @@ body{
     padding: 10px;
     margin: 5px;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 20px;
 }
 .service-description p{
     padding: 10px;
@@ -1364,6 +1363,9 @@ For devices with smaller width like mobile phone
         letter-spacing: 2px;
         font-size: 40px;
     }
+    .header-content .firstline {
+        font-size: unset;
+    }
     .contact{
         display: none;
     }
@@ -1945,7 +1947,6 @@ for tabs and large phones
         color: whitesmoke;
         outline: none;
         font-size:20px;
-        font-family: aileron;
         border-radius: 8px;
         font-weight: 400;
         cursor: pointer;
@@ -2311,7 +2312,6 @@ for tabs and large phones
         color: whitesmoke;
         outline: none;
         font-size:30px;
-        font-family: aileron;
         border-radius: 4px;
         font-weight: 400;
         cursor: pointer;
