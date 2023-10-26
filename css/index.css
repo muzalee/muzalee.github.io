@@ -865,15 +865,16 @@ padding-bottom: 40px;
 .button{
     text-align: center;
 }
-    .portfolio-image img{
-        height: 400px;
-        width: 100%;
-        position: relative;
-    }
-    .portfolio-image{
-        height: 400px;
-        width: 40%;
-    }
+.portfolio-image img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.portfolio-image{
+    height: 400px;
+    width: 40%;
+}
 .portfolio-image img::before{
     content: "";
     height: 100%;
