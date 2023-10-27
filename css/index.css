@@ -722,6 +722,27 @@ body {
     height:40px;
     opacity: .8;
 }
+.cv {
+    padding-top: 40px;
+}
+.cv a button {
+    background: transparent;
+    border:none;
+    padding: 15px 30px;
+    color: whitesmoke;
+    outline: none;
+    font-size:20px;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+
+}
+.cv a button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
 @keyframes rotate {
     0%{ transform: rotate(0deg); }
     100%{ transform: rotate(360deg); }
@@ -1176,6 +1197,19 @@ for tabs and large phones
         opacity: .8;
         transition: all .4s ease;
     }
+    .cv a button {
+        border:none;
+        padding: 20px 30px;
+        color: whitesmoke;
+        outline: none;
+        font-size:20px;
+        border-radius: 8px;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+        transition: all .4s ease;
+    
+    }
 }
 
 @media all and (max-width: 9000px) and (min-width: 1441px){
@@ -1254,5 +1288,18 @@ for tabs and large phones
         font-weight: 200;
         font-size: 18px;
         opacity: .8;
+    }
+    .cv a button {
+        background: transparent;
+        border:none;
+        padding: 25px 35px;
+        color: whitesmoke;
+        outline: none;
+        font-size:20px;
+        border-radius: 4px;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+        transition: all .4s ease;
     }
 }
