@@ -1366,6 +1366,10 @@ For devices with smaller width like mobile phone
     }
     .header-content .firstline {
         font-size: unset;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .header-content .secondline {
+        text-shadow: 2px 2px 4px #000000;
     }
     .contact{
         display: none;
