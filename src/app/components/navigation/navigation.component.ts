@@ -11,6 +11,7 @@ export class NavigationComponent {
   public onLink(route: string) {
     setTimeout(() => {
       this.router.navigate([route]);
+      //location.href = route; #to reload page
     }, 600);
   }
 }
