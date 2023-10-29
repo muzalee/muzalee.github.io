@@ -296,7 +296,6 @@ body {
 .social-media {
     color: white;
     width:  21px;
-    ;
     opacity: .6;
     margin: 8px;
     transition: all .4s ease;
@@ -751,7 +750,18 @@ body {
     0%{ transform: rotate(0deg); }
     100%{ transform: rotate(360deg); }
 }
-
+#footer {
+    background: #080808;
+    width: 100%;
+    padding: 10px;
+    color: whitesmoke;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
 
 /*
 For devices with smaller width like mobile phone
