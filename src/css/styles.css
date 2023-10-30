@@ -28,7 +28,7 @@ html {
     background: #101010;
 }
 #loader {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -373,6 +373,7 @@ body {
     width: 100%;
     height: auto;
     overflow: hidden;
+    animation: scale 1s ease;
 }
 @keyframes scale {
     0%{ transform: scale(.6); }
@@ -684,6 +685,7 @@ body {
     background-color: #101010;
     width: 100%;
     color:whitesmoke;
+    animation: scale 1s ease;
 }
 .cursor {
     height: 50px;
