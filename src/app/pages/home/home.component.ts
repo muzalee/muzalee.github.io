@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { txtRotate } from 'src/js/txt-rotate';
+import { txtRotate } from 'src/js/javascript';
 
 @Component({
   selector: 'app-home',

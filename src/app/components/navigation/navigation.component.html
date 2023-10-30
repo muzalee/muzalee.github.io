@@ -2,18 +2,18 @@
     <div class="logo">
         <img src="assets/images/logo.png" alt="logo">
     </div>
-    <div class="navigation-close">
+    <div (click)="onClose()" class="navigation-close">
         <span class="close-first"></span>
         <span class="close-second"></span>
     </div>
     <div class="navigation-links">
-        <a href="/" (click)="onLink('/')" data-text="HOME" id="home-link" >HOME</a>
-        <a href="/about" (click)="onLink('/about')" data-text="ABOUT" id="about-link" >ABOUT</a>
-        <a href="/portfolio" (click)="onLink('/portfolio')" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+        <a (click)="onLink('/')" data-text="HOME">HOME</a>
+        <a (click)="onLink('/about')" data-text="ABOUT">ABOUT</a>
+        <a (click)="onLink('/portfolio')" data-text="PORTFOLIO">PORTFOLIO</a>
     </div>
 </div>
 
-<div id="navigation-bar">
+<div (click)="onMenu()" id="navigation-bar">
     <img src="assets/images/logo.png" alt="logo">
     <div class="menubar">
         <span class="first-span"></span>

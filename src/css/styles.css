@@ -310,6 +310,7 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family:poppins;
+    cursor: pointer;
 }
 .navigation-links a {
     padding:10px;
