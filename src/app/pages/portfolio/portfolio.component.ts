@@ -22,7 +22,7 @@ export class PortfolioComponent {
       name: 'myEasyProg e-Learning Website',
       desc: 'Created an e-learning website using Laravel, React, and Mantine. It features integration with GPT-3.5 to analyze student compatibility with subjects, providing personalized insights and recommendations.',
       image: 'assets/images/portfolio/myeasyprog.gif',
-      source: 'https://myeasyprog.my',
+      source: 'https://myeasyprog.uniten.edu.my',
     }
   ]
 }
