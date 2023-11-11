@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   public projects = [
     {
+      name: 'LabLab.ai Stable LM 3B Hackathon',
+      desc: 'ProgAssist is a web application developed using NextJS and Shadcn-ui. ProgAssist aspires to redefine the landscape of programming skills by introducing a dynamic and transformative approach to evaluation and enhancement.',
+      image: 'assets/images/portfolio/prog-assist.png',
+      source: 'https://github.com/ainnaziha/prog-assist',
+    },
+    {
       name: 'LabLab.ai Legal AI Hackathon',
       desc: 'LawMinds is a mobile application developed using Flutter for the Legai AI Challenge, offering workers easy access to legal consultation. It features a user-friendly chatbot powered by GPT-3.5 and AI12 Labs for natural language understanding, making legal advice accessible on the go.',
       image: 'assets/images/portfolio/legal-ai.webp',
