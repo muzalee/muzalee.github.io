@@ -7,6 +7,18 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   public projects = [
     {
+      name: 'TODO Web App',
+      desc: 'Task management system developed using Laravel + Vue.js. Efficient and secure with authentication. Check out the source code on GitHub.',
+      image: 'assets/images/portfolio/todo-web-app.jpg',
+      source: 'https://github.com/muzalee/web-todo',
+    },
+    {
+      name: 'Cohere Coral Hackathon',
+      desc: 'InteraxResume is a web app that aims in revolutionizing resumes with Cohere AI and LangChain for comprehensive analysis and tailored improvements. Elevate your career prospects seamlessly.',
+      image: 'assets/images/portfolio/cohere-coral.webp',
+      source: 'https://lablab.ai/event/cohere-coral-hackathon/interax/interaxresume',
+    },
+    {
       name: 'LabLab.ai Stable LM 3B Hackathon',
       desc: 'ProgAssist is a web application developed using NextJS and Shadcn-ui. ProgAssist aspires to redefine the landscape of programming skills by introducing a dynamic and transformative approach to evaluation and enhancement.',
       image: 'assets/images/portfolio/prog-assist.png',
